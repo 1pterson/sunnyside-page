@@ -527,6 +527,25 @@ p {
   height: 400px;
 }
 
+@media screen and (max-width: 450px) {
+  .image_array {
+    height: 360px;
+  }
+  .array_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .array_container img {
+    width: 50%;
+    height: 180px;
+  }
+}
+
 .footer {
   height: 300px;
   background-color: #91d4c6;
