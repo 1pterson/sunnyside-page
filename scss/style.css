@@ -518,13 +518,13 @@ p {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .array_container img {
-  width: 50%;
-  height: 200px;
+  width: 25%;
+  height: 400px;
 }
 
 .footer {

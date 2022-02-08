@@ -4,10 +4,10 @@
 
 .array_container {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
 
   img {
-    width: 50%;
-    height: 200px;
+    width: 25%;
+    height: 400px;
   }
 }
