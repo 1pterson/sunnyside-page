@@ -1,0 +1,13 @@
+.image_array {
+  height: 400px;
+}
+
+.array_container {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    width: 25%;
+    height: 400px;
+  }
+}

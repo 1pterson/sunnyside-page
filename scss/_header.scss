@@ -1,0 +1,72 @@
+.header {
+  background-image: url('../images/desktop/image-header.jpg');
+  height: 95vh;
+  // min-height: 600px;
+  background-position: center bottom;
+  background-size: cover;
+
+  &__links {
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+
+    span {
+      margin-right: 30px;
+
+      a {
+        text-decoration: none;
+        color: $White;
+      }
+    }
+
+    .contact {
+      background-color: $White;
+      color: $Darkblue;
+      border-radius: 20px;
+      padding: 8px 30px;
+      font-family: 'Fraunces', serif;
+      font-weight: 900;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        opacity: 0.5;
+        // color: $White;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Fraunces', serif;
+    color: $White;
+    font-weight: bold;
+    padding-top: 37px;
+
+    .text {
+      padding-top: 40px;
+    }
+    .arrow {
+      padding-top: 40px;
+    }
+  }
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}

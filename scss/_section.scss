@@ -1,0 +1,91 @@
+.section,
+.section1,
+.section2 {
+  display: flex;
+  max-height: 475px;
+
+  &__text {
+    flex: 1;
+    width: 50vw;
+
+    .text-container {
+      padding: 160px 110px 160px 165px;
+
+      h1 {
+        padding-bottom: 40px;
+        font-size: 30px;
+        color: $Darkblue;
+      }
+      p {
+        padding-bottom: 40px;
+        font-size: 14px;
+        color: $Grayishblue;
+        line-height: 1.2rem;
+        justify-content: start;
+      }
+      .learn-more {
+        h3 {
+          font-size: 12px;
+          padding-bottom: -20px;
+          text-decoration: underline hsl(60, 100%, 50%) 10px;
+          transition: all 0.25s ease-in-out;
+
+          &:hover {
+            text-decoration: underline $SoftRed 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  &__image {
+    flex: 1;
+    width: 50vw;
+
+    img {
+      height: 475px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.section3 {
+  display: flex;
+  max-height: 475px;
+
+  .design-text {
+    padding: 300px 170px 60px 210px;
+    justify-items: center;
+    color: $Darkdesaturatedcyan;
+
+    h3 {
+      font-size: 22px;
+      padding-bottom: 32px;
+    }
+    p {
+      display: inline-block;
+      font-size: 14px;
+      line-clamp: 3;
+    }
+
+    &__right {
+      color: $Darkblue;
+    }
+  }
+  &__left {
+    flex: 1;
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+    width: 50vw;
+    background-position: center;
+    height: 475px;
+  }
+
+  &__right {
+    flex: 1;
+    background-image: url('../images/desktop/image-photography.jpg');
+    width: 50vw;
+    background-position: center;
+    height: 475px;
+  }
+}
