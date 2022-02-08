@@ -69,4 +69,43 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px 0 20px;
+
+  &__menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    &__links {
+      display: none;
+    }
+    background-image: url('../images/mobile/image-header.jpg');
+    height: 535px;
+    background-position: center bottom;
+    background-size: cover;
+
+    &__main {
+      display: flex;
+      align-items: center;
+
+      .text {
+        font-size: 40px;
+        padding-top: 25px;
+        text-align: center;
+      }
+    }
+  }
+
+  .navbar {
+    padding-bottom: 0;
+
+    &__menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 }
