@@ -54,3 +54,34 @@
 .attribution {
   font-family: 'Barlow', serif;
 }
+
+@media screen and (max-width: 830px) {
+  .footer {
+    height: 300px;
+    padding: 0 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    .logo {
+      padding-top: 30px;
+      img {
+        height: 35px;
+      }
+    }
+    &__links {
+      padding: 40px 0 45px 0;
+    }
+    &__smedias {
+      a {
+        text-decoration: none;
+
+        svg {
+          padding-right: 30px;
+          cursor: pointer;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+}

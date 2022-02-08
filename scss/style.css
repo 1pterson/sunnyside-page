@@ -109,7 +109,7 @@ p {
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 830px) {
   .header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -285,7 +285,7 @@ p {
   height: 475px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 830px) {
   .section,
   .section1,
   .section2 {
@@ -467,7 +467,7 @@ p {
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .testimonials {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -527,7 +527,7 @@ p {
   height: 400px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 830px) {
   .image_array {
     height: 360px;
   }
@@ -616,5 +616,41 @@ p {
 
 .attribution {
   font-family: 'Barlow', serif;
+}
+
+@media screen and (max-width: 830px) {
+  .footer {
+    height: 300px;
+    padding: 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer .logo {
+    padding-top: 30px;
+  }
+  .footer .logo img {
+    height: 35px;
+  }
+  .footer__links {
+    padding: 40px 0 45px 0;
+  }
+  .footer__smedias a {
+    text-decoration: none;
+  }
+  .footer__smedias a svg {
+    padding-right: 30px;
+    cursor: pointer;
+    padding-bottom: 60px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
