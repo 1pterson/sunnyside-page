@@ -14,6 +14,8 @@
       font-size: 15px;
       text-transform: uppercase;
       justify-content: center;
+      color: $Verydarkgrayishblue;
+      letter-spacing: 3px;
     }
   }
 }
@@ -63,6 +65,47 @@
       margin-top: 15px;
       font-size: 10px;
       padding-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    min-height: 1050px;
+    margin: 40px 35px 0 35px;
+
+    &__title {
+      display: flex;
+      // flex-direction: column;
+      padding: 0 35px 0 35px;
+      h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        justify-content: center;
+        color: $Verydarkgrayishblue;
+        letter-spacing: 3px;
+      }
+    }
+  }
+
+  .customers {
+    display: block;
+
+    &__one,
+    &__two,
+    &__three {
+      img {
+        margin-bottom: 35px;
+      }
+
+      p {
+        padding: 5px 0 15px 0;
+      }
+      .position {
+        padding-bottom: 65px;
+      }
     }
   }
 }
